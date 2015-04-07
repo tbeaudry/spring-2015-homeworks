@@ -197,6 +197,7 @@ def scrape_hotels(city, state, datadir='data/'):
     #c = 0
     c=1
     f = open('data\\output.txt','w')
+    f.write("TRE TRVG TRA TRP TRT RFF RFC RFS RFB RSL RSSQ RSR RSS RSV RSC NaN")
     while(True):
         #c += 1
         html = get_hotellist_page(city_url, c, city, datadir)
